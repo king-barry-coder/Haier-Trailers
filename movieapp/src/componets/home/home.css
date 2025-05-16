@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.trending{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: fit-content;
+    color: white;
+}
+
+.top-rated{
+      /* border: 2px solid red; */
+    width: 100%;
+    height: fit-content;
+    color: white; 
+}
+
+.tv-shows{
+       /* border: 2px solid red; */
+    width: 100%;
+    height: fit-content;
+    color: white;
+}
+
+@media(max-width:600px){
+    .trending{
+        /* border: 2px solid green; */
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .top-rated{
+        /* border: 2px solid green; */
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tv-shows{
+        /* border: 2px solid green; */
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

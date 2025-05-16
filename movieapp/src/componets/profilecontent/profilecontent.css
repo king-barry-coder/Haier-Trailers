@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    border: 1px solid white;
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    gap: 10px;
+    padding-inline: 1.7rem ;
+    padding-block: 0.2rem;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.content:hover{
+    background-color: #d1d1ed;
+    /* background-color: #fbe7ca; */
+}
+
+.content-logo-box{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.contentLogo{
+    width: 100%;
+    height: 100%;
+    border: 10px;
+    background-color: white;
+}
